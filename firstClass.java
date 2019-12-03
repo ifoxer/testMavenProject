@@ -16,3 +16,4 @@ public class firstClass {
         System.out.printf ("%.4f", res);
     }
 }
+//////glbmtrlbjnkjtrbn
