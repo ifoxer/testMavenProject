@@ -8,6 +8,9 @@ public class firstClass {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+
+
+
         System.out.println("Введите первое значение: ");
         float first = scn.nextFloat();
         System.out.println("Введите второе значение: ");
