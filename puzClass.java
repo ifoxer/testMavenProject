@@ -15,6 +15,7 @@ public class puzClass {
         /**
          * поиск максимального отрицательного элемента массиваж;
          */
+
         int maxValue = 0;
         int maxElement = 0;
 
