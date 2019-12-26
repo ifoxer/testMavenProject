@@ -16,11 +16,11 @@ public class puzClass {
          * поиск максимального отрицательного элемента массиваж;
          */
 
-        int maxValue = 0;
+        int maxValue = -20;
         int maxElement = 0;
 
         for (int i = 0; i < mass.length; i++) {
-            if (mass[i] < 0 && mass[i] < maxValue) {
+            if (mass[i] < 0 && mass[i] > maxValue) {
                 maxValue = mass[i];
                 maxElement = i;
             }
